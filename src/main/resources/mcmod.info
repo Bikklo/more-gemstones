@@ -1,0 +1,16 @@
+[
+{
+  "modid": "moregemstones",
+  "name": "More Gemstones",
+  "description": "",
+  "version": "0.1-alpha",
+  "mcversion": "1.11.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Bikklo"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
