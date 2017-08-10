@@ -14,5 +14,9 @@ public class BlockAmethyst extends Block {
 		setUnlocalizedName(Reference.MoreGemstonesBlocks.BLOCKAMETHYST.getUnlocalizedName());
 		setRegistryName(Reference.MoreGemstonesBlocks.BLOCKAMETHYST.getRegistryName());
 		setCreativeTab(MoreGemstonesMain.tabMoreGemstones);
+		
+		this.setHarvestLevel("pickaxe", 1);
+		this.setHardness(5.0F);
+		this.setResistance(30.0F);
 	}
 }

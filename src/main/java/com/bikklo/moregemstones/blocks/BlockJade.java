@@ -14,5 +14,9 @@ public class BlockJade extends Block {
 		setUnlocalizedName(Reference.MoreGemstonesBlocks.BLOCKJADE.getUnlocalizedName());
 		setRegistryName(Reference.MoreGemstonesBlocks.BLOCKJADE.getRegistryName());
 		setCreativeTab(MoreGemstonesMain.tabMoreGemstones);
+		
+		this.setHarvestLevel("pickaxe", 1);
+		this.setHardness(5.0F);
+		this.setResistance(30.0F);
 	}
 }

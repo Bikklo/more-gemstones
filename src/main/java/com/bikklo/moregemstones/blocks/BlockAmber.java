@@ -14,5 +14,9 @@ public class BlockAmber extends Block {
 		setUnlocalizedName(Reference.MoreGemstonesBlocks.BLOCKAMBER.getUnlocalizedName());
 		setRegistryName(Reference.MoreGemstonesBlocks.BLOCKAMBER.getRegistryName());
 		setCreativeTab(MoreGemstonesMain.tabMoreGemstones);
+		
+		this.setHarvestLevel("pickaxe", 1);
+		this.setHardness(5.0F);
+		this.setResistance(30.0F);
 	}
 }
