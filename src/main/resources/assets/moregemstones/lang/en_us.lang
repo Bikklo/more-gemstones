@@ -10,6 +10,7 @@ item.itemruby.name=Ruby
 item.itemsapphire.name=Sapphire
 item.itemsunstone.name=Sunstone
 tile.blockamber.name=Block of Amber
+tile.blockamberore.name=Amber Ore
 tile.blockamethyst.name=Block of Amethyst
 tile.blockammolite.name=Block of Ammolite
 tile.blockaquamarine.name=Block of Aquamarine

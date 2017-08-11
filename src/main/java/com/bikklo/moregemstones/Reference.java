@@ -47,6 +47,7 @@ public class Reference {
 	public static enum MoreGemstonesBlocks
 	{
 		BLOCKAMBER("blockamber", "BlockAmber"),
+		BLOCKAMBERORE("blockamberore", "BlockAmberOre"),
 		BLOCKAMETHYST("blockamethyst", "BlockAmethyst"),
 		BLOCKAMMOLITE("blockammolite", "BlockAmmolite"),
 		BLOCKAQUAMARINE("blockaquamarine", "BlockAquamarine"),
