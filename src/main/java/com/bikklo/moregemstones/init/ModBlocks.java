@@ -4,8 +4,11 @@ import com.bikklo.moregemstones.Reference;
 import com.bikklo.moregemstones.blocks.BlockAmber;
 import com.bikklo.moregemstones.blocks.BlockAmberOre;
 import com.bikklo.moregemstones.blocks.BlockAmethyst;
+import com.bikklo.moregemstones.blocks.BlockAmethystOre;
 import com.bikklo.moregemstones.blocks.BlockAmmolite;
+import com.bikklo.moregemstones.blocks.BlockAmmoliteOre;
 import com.bikklo.moregemstones.blocks.BlockAquamarine;
+import com.bikklo.moregemstones.blocks.BlockAquamarineOre;
 import com.bikklo.moregemstones.blocks.BlockBloodstone;
 import com.bikklo.moregemstones.blocks.BlockJade;
 import com.bikklo.moregemstones.blocks.BlockMalachite;
@@ -26,8 +29,11 @@ public class ModBlocks {
 	public static Block blockamber;
 	public static Block blockamberore;
 	public static Block blockamethyst;
+	public static Block blockamethystore;
 	public static Block blockammolite;
+	public static Block blockammoliteore;
 	public static Block blockaquamarine;
+	public static Block blockaquamarineore;
 	public static Block blockbloodstone;
 	public static Block blockjade;
 	public static Block blockmalachite;
@@ -42,10 +48,13 @@ public class ModBlocks {
 		blockamberore = new BlockAmberOre();
 		
 		blockamethyst = new BlockAmethyst();
+		blockamethystore = new BlockAmethystOre();
 		
 		blockammolite = new BlockAmmolite();
+		blockammoliteore = new BlockAmmoliteOre();
 		
 		blockaquamarine = new BlockAquamarine();
+		blockaquamarineore = new BlockAquamarineOre();
 		
 		blockbloodstone = new BlockBloodstone();
 		
@@ -69,10 +78,13 @@ public class ModBlocks {
 		registerBlock(blockamberore);
 		
 		registerBlock(blockamethyst);
+		registerBlock(blockamethystore);
 		
 		registerBlock(blockammolite);
+		registerBlock(blockammoliteore);
 		
 		registerBlock(blockaquamarine);
+		registerBlock(blockaquamarineore);
 		
 		registerBlock(blockbloodstone);
 		
@@ -104,10 +116,13 @@ public class ModBlocks {
 		registerRender(blockamberore);
 		
 		registerRender(blockamethyst);
+		registerRender(blockamethystore);
 		
 		registerRender(blockammolite);
+		registerRender(blockammoliteore);
 		
 		registerRender(blockaquamarine);
+		registerRender(blockaquamarineore);
 		
 		registerRender(blockbloodstone);
 		
