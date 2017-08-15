@@ -5,6 +5,7 @@ import java.util.List;
 import com.bikklo.moregemstones.MoreGemstonesMain;
 import com.bikklo.moregemstones.Reference;
 
+import net.minecraft.client.resources.I18n;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
@@ -26,6 +27,6 @@ public class ToolBloodstoneSword extends ItemSword {
 		String name = tooltip.get(0);
 		name = TextFormatting.YELLOW + name;
 		tooltip.set(0, name);
-		tooltip.add(TextFormatting.DARK_RED + "Dripping with the blood of it's victims...");
+		tooltip.add(TextFormatting.DARK_RED + I18n.format("item.toolbloodstonesword.tooltip"));
 	}
 }

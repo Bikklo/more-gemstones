@@ -5,6 +5,7 @@ import java.util.List;
 import com.bikklo.moregemstones.MoreGemstonesMain;
 import com.bikklo.moregemstones.Reference;
 
+import net.minecraft.client.resources.I18n;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -40,6 +41,6 @@ public class ItemDropOfBlood extends Item {
 		String name = tooltip.get(0);
 		name =  TextFormatting.YELLOW + name;
 		tooltip.set(0, name);
-		tooltip.add(TextFormatting.DARK_RED + "A drop of the victim's blood...");
+		tooltip.add(TextFormatting.DARK_RED + I18n.format("item.itemdropofblood.tooltip"));
 	}
 }

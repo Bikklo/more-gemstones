@@ -33,4 +33,6 @@ tile.blocksapphire.name=Block of Sapphire
 tile.blocksunstone.name=Block of Sunstone
 //Creative Tab
 itemGroup.tab_moregemstones=More Gemstones
-//Tooltips?
+//Tooltips
+item.toolbloodstonesword.tooltip=Dripping with the blood of its victims...
+item.itemdropofblood.tooltip=A drop of victim's blood...
