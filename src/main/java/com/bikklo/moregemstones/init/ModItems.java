@@ -6,6 +6,7 @@ import com.bikklo.moregemstones.items.ItemAmethyst;
 import com.bikklo.moregemstones.items.ItemAmmolite;
 import com.bikklo.moregemstones.items.ItemAquamarine;
 import com.bikklo.moregemstones.items.ItemBloodstone;
+import com.bikklo.moregemstones.items.ItemDropOfBlood;
 import com.bikklo.moregemstones.items.ItemJade;
 import com.bikklo.moregemstones.items.ItemMalachite;
 import com.bikklo.moregemstones.items.ItemMoonstone;
@@ -32,6 +33,8 @@ public class ModItems {
 	public static Item itemsapphire;
 	public static Item itemsunstone;
 	
+	public static Item itemdropofblood;
+	
 	public static void init()
 	{
 		itemamber = new ItemAmber();
@@ -45,6 +48,8 @@ public class ModItems {
 		itemruby = new ItemRuby();
 		itemsapphire = new ItemSapphire();
 		itemsunstone = new ItemSunstone();
+		
+		itemdropofblood = new ItemDropOfBlood();
 	}
 	
 	public static void register()
@@ -60,6 +65,8 @@ public class ModItems {
 		GameRegistry.register(itemruby);
 		GameRegistry.register(itemsapphire);
 		GameRegistry.register(itemsunstone);
+		
+		GameRegistry.register(itemdropofblood);
 	}
 	
 	public static void registerRenders()
@@ -75,6 +82,8 @@ public class ModItems {
 		registerRender(itemruby);
 		registerRender(itemsapphire);
 		registerRender(itemsunstone);
+		
+		registerRender(itemdropofblood);
 	}
 	
 	private static void registerRender(Item item)

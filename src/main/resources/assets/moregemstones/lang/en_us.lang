@@ -1,3 +1,4 @@
+//Items
 item.itemamber.name=Amber
 item.itemamethyst.name=Amethyst
 item.itemammolite.name=Ammolite
@@ -9,6 +10,12 @@ item.itemmoonstone.name=Moonstone
 item.itemruby.name=Ruby
 item.itemsapphire.name=Sapphire
 item.itemsunstone.name=Sunstone
+//Consumables
+item.itemdropofblood.name=Drop of Blood
+//Tools
+item.toolambersword.name=Amber Sword
+item.toolbloodstonesword.name=Bloodstone Sword
+//Blocks
 tile.blockamber.name=Block of Amber
 tile.blockamberore.name=Amber Ore
 tile.blockamethyst.name=Block of Amethyst
@@ -24,4 +31,6 @@ tile.blockmoonstone.name=Block of Moonstone
 tile.blockruby.name=Block of Ruby
 tile.blocksapphire.name=Block of Sapphire
 tile.blocksunstone.name=Block of Sunstone
+//Creative Tab
 itemGroup.tab_moregemstones=More Gemstones
+//Tooltips?

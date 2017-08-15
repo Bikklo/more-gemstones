@@ -3,6 +3,7 @@ package com.bikklo.moregemstones;
 import com.bikklo.moregemstones.init.ModBlocks;
 import com.bikklo.moregemstones.init.ModCrafting;
 import com.bikklo.moregemstones.init.ModItems;
+import com.bikklo.moregemstones.init.ModTools;
 import com.bikklo.moregemstones.proxy.CommonProxy;
 
 import net.minecraft.creativetab.CreativeTabs;
@@ -18,6 +19,8 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, acceptedMinecraftVersions = Reference.ACCEPTED_VERSIONS)
 public class MoreGemstonesMain {
 	
+	com.bikklo.moregemstones.handlers.EventHandler eventHandler = new com.bikklo.moregemstones.handlers.EventHandler();
+	
 	@Instance
 	public static MoreGemstonesMain instance;
 	
@@ -29,6 +32,8 @@ public class MoreGemstonesMain {
 	{
 		ModItems.init();
 		ModItems.register();
+		ModTools.init();
+		ModTools.register();
 		ModBlocks.init();
 		ModBlocks.register();
 	}
@@ -39,6 +44,7 @@ public class MoreGemstonesMain {
 		proxy.init();
 		
 		ModCrafting.register();
+		eventHandler.registerEvents();
 	}
 	
 	@EventHandler

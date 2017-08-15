@@ -12,7 +12,7 @@ public class Reference {
 	
 	public static enum MoreGemstonesItems
 	{
-		ITEMAMBER("itemamber", "ItemAmber"),
+		ITEMAMBER("itemamber", "ItemAmber"),		
 		ITEMAMETHYST("itemamethyst", "ItemAmethyst"),
 		ITEMAMMOLITE("itemammolite", "ItemAmmolite"),
 		ITEMAQUAMARINE("itemaquamarine", "ItemAquamarine"),
@@ -22,12 +22,39 @@ public class Reference {
 		ITEMMOONSTONE("itemmoonstone", "ItemMoonstone"),
 		ITEMRUBY("itemruby", "ItemRuby"),
 		ITEMSAPPHIRE("itemsapphire", "ItemSapphire"),
-		ITEMSUNSTONE("itemsunstone", "ItemSunstone");
+		ITEMSUNSTONE("itemsunstone", "ItemSunstone"),
+		
+		ITEMDROPOFBLOOD("itemdropofblood", "ItemDropOfBlood");
 		
 		private String unlocalizedName;
 		private String registryName;
 		
 		MoreGemstonesItems(String unlocalizedName, String registryName)
+		{
+			this.unlocalizedName = unlocalizedName;
+			this.registryName = registryName;
+		}
+		
+		public String getUnlocalizedName()
+		{
+			return unlocalizedName;
+		}
+		
+		public String getRegistryName()
+		{
+			return registryName;
+		}
+	}
+	
+	public static enum MoreGemstonesTools
+	{
+		TOOLAMBERSWORD("toolambersword", "ToolAmberSword"),
+		TOOLBLOODSTONESWORD("toolbloodstonesword", "ToolBloodstoneSword");
+		
+		private String unlocalizedName;
+		private String registryName;
+		
+		MoreGemstonesTools(String unlocalizedName, String registryName)
 		{
 			this.unlocalizedName = unlocalizedName;
 			this.registryName = registryName;
